@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/magbagbe-logo.png.asset.json";
+import logoUrl from "@/assets/magbagbe-logo.png";
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <div className="footer-brand">
-              <img src={logoAsset.url} alt="Mágbagbé-ilẹ̀ logo" className="footer-brand-img" />
+              <img src={logoUrl} alt="Mágbagbé-ilẹ̀ logo" className="footer-brand-img" />
               <div>
                 <div className="footer-brand-name">Mágbagbé-ilẹ̀</div>
                 <div className="footer-brand-sub">Do Not Forget Your Land</div>

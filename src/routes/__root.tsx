@@ -14,7 +14,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SiteEffects from "@/components/SiteEffects";
 import { Toaster } from "@/components/ui/sonner";
-import logoAsset from "@/assets/magbagbe-logo.png.asset.json";
+import logoUrl from "@/assets/magbagbe-logo.png";
 
 function NotFoundComponent() {
   return (
@@ -67,9 +67,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Mágbagbé-ilẹ̀ preserves African heritage through storytelling, cultural documentation, and ancestral voices passed down through generations. Do not forget your land." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Mágbagbé-ilẹ̀" },
-      { property: "og:image", content: logoAsset.url },
+      { property: "og:image", content: logoUrl },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: logoAsset.url },
+      { name: "twitter:image", content: logoUrl },
       { name: "twitter:title", content: "Mágbagbé-ilẹ̀ — African Cultural Heritage & Storytelling Platform" },
       { name: "twitter:description", content: "Mágbagbé-ilẹ̀ preserves African heritage through storytelling, cultural documentation, and ancestral voices passed down through generations. Do not forget your land." },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/hDAvYmPDRXaDBPi8Sg6FtjQ6mPn1/social-images/social-1782823801080-WhatsApp_Image_2026-06-25_at_17.15.29.webp" },
@@ -77,8 +77,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/png", href: logoAsset.url },
-      { rel: "apple-touch-icon", href: logoAsset.url },
+      { rel: "icon", type: "image/png", href: logoUrl },
+      { rel: "apple-touch-icon", href: logoUrl },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" },

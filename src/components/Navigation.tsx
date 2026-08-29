@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useRouter } from "@tanstack/react-router";
-import logoAsset from "@/assets/magbagbe-logo.png.asset.json";
+import logoUrl from "@/assets/magbagbe-logo.png";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,7 +26,7 @@ export default function Navigation() {
     <>
       <nav id="navbar" className={scrolled ? "scrolled" : ""}>
         <Link to="/" className="nav-logo" onClick={close}>
-          <img src={logoAsset.url} alt="Mágbagbé-ilẹ̀ logo" className="nav-logo-img" />
+          <img src={logoUrl} alt="Mágbagbé-ilẹ̀ logo" className="nav-logo-img" />
           <span className="nav-logo-text">
             <span className="nav-logo-main">Mágbagbé-ilẹ̀</span>
             <span className="nav-logo-sub">Do Not Forget Your Land</span>
