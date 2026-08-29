@@ -15,6 +15,7 @@ import Footer from "@/components/Footer";
 import SiteEffects from "@/components/SiteEffects";
 import { Toaster } from "@/components/ui/sonner";
 import logoUrl from "@/assets/magbagbe-logo.png";
+import socialPreviewUrl from "@/assets/social-preview.webp";
 
 function NotFoundComponent() {
   return (
@@ -72,8 +73,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:image", content: logoUrl },
       { name: "twitter:title", content: "Mágbagbé-ilẹ̀ — African Cultural Heritage & Storytelling Platform" },
       { name: "twitter:description", content: "Mágbagbé-ilẹ̀ preserves African heritage through storytelling, cultural documentation, and ancestral voices passed down through generations. Do not forget your land." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/hDAvYmPDRXaDBPi8Sg6FtjQ6mPn1/social-images/social-1782823801080-WhatsApp_Image_2026-06-25_at_17.15.29.webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/hDAvYmPDRXaDBPi8Sg6FtjQ6mPn1/social-images/social-1782823801080-WhatsApp_Image_2026-06-25_at_17.15.29.webp" },
+      { property: "og:image", content: socialPreviewUrl },
+      { name: "twitter:image", content: socialPreviewUrl },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
