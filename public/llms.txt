@@ -1,0 +1,19 @@
+# Mágbagbé-ilẹ̀
+
+> Mágbagbé-ilẹ̀ is an African cultural heritage and storytelling platform that preserves ancestral voices, oral traditions, and cultural identity through documentary films, essays, and community.
+
+Mágbagbé-ilẹ̀ (Yoruba for "Do not forget your land") documents stories from across the African continent — from the Sahel to the Cape, from elder wisdom in West African villages to the diaspora experience on every continent. The platform produces documentary films, publishes essays on heritage and identity, and builds a community of cultural custodians committed to carrying memory forward.
+
+## Pages
+
+- [/](/): Homepage — the mission, featured documentaries, and latest journal essays.
+- [/about](/about): About the platform, the meaning behind the name, origin story, vision, and legacy timeline.
+- [/community](/community): Join the movement — a community of storytellers, historians, and cultural custodians preserving heritage.
+- [/contact](/contact): Reach the team for story submissions, partnership enquiries, media, and community questions.
+- [/journal/](/journal/): The Journal — essays, reflections, and meditations on African heritage, culture, identity, and storytelling.
+- [/stories/](/stories/): Our Stories — documentary films preserving African oral traditions, elder wisdom, and cultural identity.
+
+## Optional
+
+- [/journal/why-african-traditions-matter](/journal/why-african-traditions-matter): Featured essay on why African traditions matter in a changing world.
+- [/stories/voices-of-the-elders](/stories/voices-of-the-elders): Documentary on oral traditions of West African elders.
